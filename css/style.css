@@ -831,7 +831,9 @@ html, body{ height: 100%; }
 .tab-menu{
 	background: #f5f5f5;
     padding: 2px 0px;
-	box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    
 }
 
 .offer-item {
