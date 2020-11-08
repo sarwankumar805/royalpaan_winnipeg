@@ -104,7 +104,21 @@ $('.fancyTabs').each(function() {
 });
 });
 </script>
-
+<style>
+    .menu-heading{
+        font-size: 30px; 
+        margin-left: 45px; 
+        margin-bottom: 10px; 
+        padding-left: 5px; 
+        margin-right:45px; 
+        border-bottom: #fff; 
+        border-top: #000; 
+        border-left: #000; 
+        color: white; 
+        border-right: black; 
+        border-style: solid;
+    }
+</style>
 <body style="background-color: #000; height: 500px;">
     <div id="site-header">
         <header id="header" class="header-block-top">
@@ -184,16 +198,22 @@ $('.fancyTabs').each(function() {
                             </li> 
                                  
                             <li class="tab fancyTab" style="background-color: #8DC63F;">
-                            <div class="arrow-down"><div class="arrow-down-inner"></div></div>
-                                <a id="tab4" href="#tabBody4" role="tab" aria-controls="tabBody4" aria-selected="true" data-toggle="tab" tabindex="0"><span class="fa fa-stack-overflow"></span><span class="hidden-xs">Capture</span></a>
-                                <div class="whiteBlock"></div>
-                            </li>
-                            
-                            <li class="tab fancyTab" style="background-color: #8DC63F;">
-                            <div class="arrow-down"><div class="arrow-down-inner"></div></div>
-                                <a id="tab5" href="#tabBody5" role="tab" aria-controls="tabBody5" aria-selected="true" data-toggle="tab" tabindex="0"><span class="fa fa-question-circle"></span><span class="hidden-xs">Order</span></a>
-                                <div class="whiteBlock"></div>
-                            </li>
+                                <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                                    <a id="tab4" href="#tabBody4" role="tab" aria-controls="tabBody4" aria-selected="true" data-toggle="tab" tabindex="0">
+                                        <img src="images/dosa.png" style="margin-top: 10px; margin-bottom: 15px;" width="45" height="45"><br>
+                                        <span class="hidden-xs">South Indian</span>
+                                    </a>
+                                    <div class="whiteBlock"></div>
+                                </li>
+                                
+                                <li class="tab fancyTab" style="background-color: #8DC63F;">
+                                <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                                    <a id="tab5" href="#tabBody5" role="tab" aria-controls="tabBody5" aria-selected="true" data-toggle="tab" tabindex="0">
+                                        <img src="images/beverages.png" style="margin-top: 10px; margin-bottom: 15px;" width="45" height="45"><br>
+                                        <span class="hidden-xs">Beverages</span>
+                                    </a>
+                                    <div class="whiteBlock"></div>
+                                </li>
                 </ul>
                 <div id="myTabContent" class="tab-content fancyTabContent" aria-live="polite" style="padding-left: 0px; padding-right: 0px; background-color: #000;">
                             <div class="tab-pane  fade active in" id="tabBody0" role="tabpanel" aria-labelledby="tab0" aria-hidden="false" tabindex="0">
@@ -536,23 +556,475 @@ $('.fancyTabs').each(function() {
                                     </div>
                             </div>
                             <div class="tab-pane  fade" id="tabBody4" role="tabpanel" aria-labelledby="tab4" aria-hidden="true" tabindex="0">
-                            <div class="row">
-                                <div class="col-md-12">
-                                            <h2>This is the content of tab five.</h2>
-                                            <p>This field is a rich HTML field with a content editor like others used in Sitefinity. It accepts images, video, tables, text, etc. Street art polaroid microdosing la croix taxidermy. Jean shorts kinfolk distillery lumbersexual pinterest XOXO semiotics. Tilde meggings asymmetrical literally pork belly, heirloom food truck YOLO. Meh echo park lyft typewriter. </p>
-                                          
+                                <div class="row">
+                                    <!-- end col -->
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/MASALA FRIES.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>MEDHU VADA</h3>
+                                            <p>
+                                                SERVED WITH SAMBHAR AND CHUTNEYS
+                                            </p>
                                         </div>
+                                        <span class="offer-price">$7</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/menu-item-thumbnail-06.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>STEAM IDLI</h3>
+                                            <p>
+                                                SERVED WITH SAMBHAR AND CHUTNEYS 
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$7</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <!-- end col -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/BOMBAY BURGER.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>TADKA IDLI</h3>
+                                            <p>
+                                                SAUTEED WITH PUNJABI TADKA
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$8</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                
+                                <!-- end col -->
+                                
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/BOMBAY VADA PAV.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>SZECHUAN IDLI</h3>
+                                            <p>
+                                                SERVED WITH SAMBHAR AND CHUTNEYS
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$8</span>
+                                    </div>
+                                </div>
+                                    <!-- end col -->
+                                
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/BOMBAY VADA PAV.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>IDLI VADA COMBO</h3>
+                                            <p>
+                                                SERVED WITH SAMBHAR AND CHUTNEYS
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$9</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                                    <p class="menu-heading">UTTAPAM</p>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/PANEER KATHI ROLL.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>ONION</h3>
+                                            <p>
+                                                THICK RICE PANCAKE WITH ONIONS.
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$10</span>
+                                    </div>
+                                </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/BOMBAY VADA PAV.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>ONION CHILLI </h3>
+                                            <p>
+                                                THICK RICE PANCAKE WITH ONIONS AND CHILLI
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$10</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/PANEER KATHI ROLL.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>TOMATO </h3>
+                                            <p>
+                                                TOMATO AND CORIANDER
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$10</span>
+                                    </div>
+                                </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/BOMBAY VADA PAV.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>SPECIAL MASALA</h3>
+                                            <p>
+                                                ONION, TOMATOES AND POTATO MASALA
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$12</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/PANEER KATHI ROLL.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>AMRITSARI </h3>
+                                            <p>
+                                                BUTTER GARLIC PASTE, CHEESE AND VEGETABLES.
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$12</span>
+                                    </div>
+                                </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/BOMBAY VADA PAV.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>SPRING VEGETABLE</h3>
+                                            <p>
+                                                JULIENNE SEASONAL VEGETABLES IN GARLIC SAUCE
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$11</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/PANEER KATHI ROLL.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>PIZZA</h3>
+                                            <p>
+                                                MOZZARELLA CHEESE, ONIONS, TOMATOES & CAPSICUM
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$12</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                                        <p class="menu-heading">DOSA BAR</p>
+                                    </div>
+                                
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-2">
+                                    <div class="offer-item">
+                                        <img src="images/BOMBAY VADA PAV.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>SADA</h3>
+                                            <p>
+                                                CRISPY PLAIN DOSA
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$09</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/PANEER KATHI ROLL.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>MASALA</h3>
+                                            <p>
+                                                WITH POTATO MASALA
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$10</span>
+                                    </div>
+                                </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-2">
+                                    <div class="offer-item">
+                                        <img src="images/BOMBAY VADA PAV.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>MYSORE SPECIAL</h3>
+                                            <p>
+                                                WITH OUR GARLIC CHILLI AND POTATO SPREAD
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$11</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/PANEER KATHI ROLL.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>MYSORE MASALA</h3>
+                                            <p>
+                                                GARLIC CHILLI, POTATO SPREAD WITH POTATO MASALA
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$12</span>
+                                    </div>
+                                </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-2">
+                                    <div class="offer-item">
+                                        <img src="images/BOMBAY VADA PAV.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>PANEER BHURJI</h3>
+                                            <p>
+                                                TANGY & SAUTEED PANEEER, CHEESE OVER CRISP DOSA
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$12</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/PANEER KATHI ROLL.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>AMRITSARI MASALA</h3>
+                                            <p>
+                                                BUTTER GARLIC PASTE, CHEESE & VEGETABLES
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$12</span>
+                                    </div>
+                                </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-2">
+                                    <div class="offer-item">
+                                        <img src="images/BOMBAY VADA PAV.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>PAV BHAJI DOSA</h3>
+                                            <p>
+                                                MASHED VEGGIES, ONIONS AND TOMATOES
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$12</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/PANEER KATHI ROLL.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>SZECHUAN SPRING</h3>
+                                            <p>
+                                                SPRING DOSA WITH AN INDO-CHINESE TWIST
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$12</span>
+                                    </div>
+                                </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-2">
+                                    <div class="offer-item">
+                                        <img src="images/BOMBAY VADA PAV.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>BUTTER GARLIC MASALA</h3>
+                                            <p>
+                                                BUTTER GARLIC PASTE WITH POTATO MASALA
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$11</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/PANEER KATHI ROLL.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>ONION MASALA</h3>
+                                            <p>
+                                                CHOPPED ONIONS AND/OR CHILLIS WITH BUTTER 
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$11</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/PANEER KATHI ROLL.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>SPRING DOSA</h3>
+                                            <p>
+                                                JULIENNE SEASONAL VEGETABLES IN GARLIC SAUCE
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$11</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/PANEER KATHI ROLL.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>MARSHAL CARIAPPA</h3>
+                                            <p>
+                                                SAUTEED ONION AND TOMATO SPREAD IN GHEE.
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$12</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/PANEER KATHI ROLL.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>CHEESE</h3>
+                                            <p>
+                                                SHREDDED MOZZARELLA CHEESE AND BUTTER
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$11</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/PANEER KATHI ROLL.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>CHEESE MASALA</h3>
+                                            <p>
+                                                CHEESE DOSA WITH POTATO MASALA
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$12</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/PANEER KATHI ROLL.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>CHOCOLATE AND HAZELNUT</h3>
+                                            <p>
+                                                SWEETENED HAZELNUT AND COCOA SPREAD
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$12</span>
+                                    </div>
+                                </div>
                                     </div>
                             </div>
                             <div class="tab-pane  fade" id="tabBody5" role="tabpanel" aria-labelledby="tab5" aria-hidden="true" tabindex="0">
-                            <div class="row">
-                                <div class="col-md-12">
-                                            <h2>This is the content of tab six.</h2>
-                                            <p>This field is a rich HTML field with a content editor like others used in Sitefinity. It accepts images, video, tables, text, etc. Street art polaroid microdosing la croix taxidermy. Jean shorts kinfolk distillery lumbersexual pinterest XOXO semiotics. Tilde meggings asymmetrical literally pork belly, heirloom food truck YOLO. Meh echo park lyft typewriter. </p>
-                                          
+                                <div class="row">
+                                    <!-- end col -->
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                        <div class="offer-item">
+                                            <img src="images/MASALA FRIES.jpg" alt="" class="img-responsive">
+                                            <div>
+                                                <h3>FRESH LEMONADE</h3>
+                                                <p>
+                                                    KESAR | ROSE | KHUS <br>
+                                                    Zesty flavor infused lemonade crowded with basil seeds.
+                                                </p>
+                                            </div>
+                                            <span class="offer-price">$3</span>
                                         </div>
                                     </div>
-                            </div>
+                                     <!-- end col -->
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                        <div class="offer-item">
+                                            <img src="images/menu-item-thumbnail-06.jpg" alt="" class="img-responsive">
+                                            <div>
+                                                <h3>MASALA SODA</h3>
+                                                <p>
+                                                    GINGER FLAVORED SODA MIXED WITH SPECIAL MASALA MIX AND FRESH LIME JUICE.
+                                                </p>
+                                            </div>
+                                            <span class="offer-price">$3.5</span>
+                                        </div>
+                                    </div>
+                                <!-- end col -->
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                        <div class="offer-item">
+                                            <img src="images/BOMBAY BURGER.jpg" alt="" class="img-responsive">
+                                            <div>
+                                                <h3>MASALA JEERA SODA</h3>
+                                                <p>
+                                                    PLAIN SODA MIXED WITH SPECIAL JEERA MASALA MIX AND FRESH LIME JUICE
+                                                </p>
+                                            </div>
+                                            <span class="offer-price">$3.5</span>
+                                        </div>
+                                    </div>
+                                <!-- end col -->
+                                                                
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/BOMBAY VADA PAV.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>FRUIT JUICES</h3>
+                                            <p>
+                                                LYCHEE, MANGO, GUAVA, ORANGE, POMEGRANTE
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$2.5</span>
+                                    </div>
+                                </div>
+                                    <!-- end col -->
+                                
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/BOMBAY VADA PAV.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>CANNED POP</h3>
+                                        
+                                        </div>
+                                        <span class="offer-price">$1.5</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/BOMBAY VADA PAV.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>WATER</h3>
+                                        </div>
+                                        <span class="offer-price">$2</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                                    <p class="menu-heading">TEA BAR</p>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/PANEER KATHI ROLL.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>MASALA CHAI</h3>
+                                            <p>
+                                                CLASSIC MASALA CHAI
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$03</span>
+                                    </div>
+                                </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/BOMBAY VADA PAV.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>ROYAL KASHMIRI CHAI </h3>
+                                            <p>
+                                                ROSE FLAVORED GREEN TEA MADE IN THICKENED MILK GARNISHED WITH ALMONDS AND PISTACHIOS.
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$3.5</span>
+                                    </div>
+                                </div>
+                                
+                        </div>
                 </div>
         
             </section>
